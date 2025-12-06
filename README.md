@@ -113,7 +113,7 @@ This eCommerce database is designed for a comprehensive online shopping platform
 
 1. **Clone or download this repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/iam-shohag/
    cd shohag-nti
    ```
 
