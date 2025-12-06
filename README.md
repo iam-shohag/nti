@@ -254,23 +254,6 @@ For detailed documentation, please see:
 
 Open `documentation.html` in your web browser for the full documentation experience.
 
-## 👨‍💻 Developer
-
-**Md. Yamin Hossain**  
-🕷️ Cod3d Spid3r | Sr. Software Engineer
-
-- **Company:** ANSNEW TECH.
-- **Location:** Dhaka, Bangladesh
-- **Specialization:** Scalable systems, infrastructure automation, and intuitive user experiences
-
-### Connect
-
-- 🌐 **Website:** [needyamin.github.io](https://needyamin.github.io)
-- 💻 **GitHub:** [@needyamin](https://github.com/needyamin)
-- 📚 **ORCID:** [0009-0009-1184-6005](https://orcid.org/0009-0009-1184-6005)
-- 📘 **Facebook:** [needyaminofficial](https://www.facebook.com/needyaminofficial)
-
-
 ## 🔧 Technical Details
 
 ### Database Engine
@@ -325,5 +308,11 @@ This database schema is provided as-is for educational and commercial use. Pleas
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [GitHub repository](https://github.com/needyamin) for more projects.
 
-## 📞 Support
+## 👨‍💻 Developer
 
+**Md. Yamin Hossain**  
+🕷️ Cod3d Spid3r | Sr. Software Engineer
+
+- **Company:** ANSNEW TECH.
+- **Location:** Dhaka, Bangladesh
+- **Specialization:** Scalable systems, infrastructure automation, and intuitive user experiences
