@@ -320,12 +320,70 @@
   <script>
     // sample product data
     const PRODUCTS = [
-      {id:'NTI-PB-20000-FP',title:'Charge Pro 20,000 mAh Power Bank',price:2200,short:'20,000 mAh, PD & QC, LED % display',tag:'power-bank',stock:120},
-      {id:'NTI-MSE-WS-01',title:'Wireless Ergonomic Mouse — Silent Click',price:450,short:'Adjustable DPI, long battery',tag:'mouse',stock:300},
-      {id:'NTI-CASE-01',title:'Clear Hybrid Phone Case — Anti-Yellow',price:399,short:'TPU+PC hybrid, reinforced corners',tag:'phone-case',stock:500},
-      {id:'NTI-LB-9W-SMART',title:'9W Wi-Fi Smart LED Bulb (RGB)',price:650,short:'App & voice control, RGB + warm white',tag:'smart-bulb',stock:200},
-      {id:'NTI-SVC-SETUP-01',title:'Remote Software Setup — One-Time',price:1000,short:'Remote optimization for Windows/Android',tag:'service',stock:999}
-    ];
+      {id:'AN-45-C',title:'Glass Holder (DETO)',price:2200,
+        short:'Model No:AN-45-C (Heavy), Level Suction: 280 kg, Vertical Suction: 260 kg.',
+        tag:'glass holder',stock:120},
+
+      {id:'AN-017',title:'Glass Holder (DETO)',price:450,
+        short:'Model No: AN-017 (Heavy), Level Suction: 215 kg, Vertical Suction: 230 kg',
+        tag:'glass holder',stock:300},
+
+      {id:'AN-015',title:'Glass Holder (DETO)',price:399,
+        short:'Model No: AN-015 (Medium), Level Suction: 180 kg, Vertical Suction: 160 kg ',
+        tag:'glass holder',stock:500},
+
+      {id:'VC-35D-Heavy',title:'Double Cylinder Floor Spring (VC Closma Glass Door Closer)',price:650,
+        short:'Closing Force: 30 N, Door Weight Capacity: 150 kg, Size: 1200×2400mm, 3 Years Replacement Guarantee',
+        tag:'VC closma 35D heavy',stock:200},
+
+      {id:'VC-35D-Standard',title:'Double Cylinder Floor Spring (VC Closma 35-D Standard Series)',price:1000,
+        short:'Weight Capacity Upto: 120kg, 1 Year Replacement Guarantee',
+        tag:'VC Closma 35-D Standard Series',stock:999},
+
+      {id:'VC-30D-Small', title:'Double Cylinder Floor Spring (VC Closma 30-D Small)',price:8768,
+        short:'Model No: VC Closma 30-D (Small), Door Weight Capacity: 80-90 kg',
+        tag:'VC closma 30-D small', stock:100},
+
+      {id:'GB-998', title:'Guibao 998 Silicone Weatherproofing Sealant',price:500,
+        short:'Colour: Black, Gray, White. Net: 590ml',
+        tag:'Guibao 998 Silicone Weatherproofing Sealant', stock:100},
+
+      {id:'GB-999', title:'Guibao 999 Silicone Weatherproofing Glazing Sealant',price:200,
+        short:'Colour: Black, Gray, White. Net: 590ml',
+        tag:'Guibao 999 Silicone Weatherproofing Glazing Sealant', stock:300},
+
+      {id:'GB-563', title:'Guibao 563 General Purpose Silicone Sealant',price:300,
+        short:'Colour- Black, Gray, White. Net-500ml',
+        tag:'Guibao 563 General Purpose Silicone Sealant', stock:100},
+
+      {id:'GB-557', title:'Guibao 557 Neutral Silicone Sealant For Door & Windows', price:300,
+        short:'Colour- Black, Gray, White. Net- 500ml',
+        tag:'Guibao 557 Neutral Silicone Sealant For Door & Windows', stock:310},
+
+      {id:'Route Glass Spider', title:'Route Glass Spider',price:500,
+        short:'Material: SS304, SS316 . Finish: Mirror, Satin . L: 200/210/250',
+        tag:'Route Glass Spider', stock:290},
+
+      {id:'Hings', title:'Casement Hings', price:100,
+        short:'Size:10", 12", 14", 16", 18", 24"',
+        tag:'Windowa Hings', stock:580},
+
+      {id:'Arm Lock', title:'Arm Lock', price:20,
+        short:'Model: HK-SHDS28, Size: 8", 10", 12"',
+        tag:'Arm lock', stock:40},
+
+      {id:'Bolt', title:'Anchor Bolt', price:40,
+        short:'Material: Stainless Steell (S.S), Grade:304(china),Size:10x80, 12x100',
+        tag:'Anchor Bolt', stock:39},
+      
+      {id:'NB', title:'Nut Bolt', price:50,
+        short:'Gred: 304(china), Size:10x80, 12x100(3inch, 4inch)',
+        tag:'Nut Bolt', stock:20},
+
+      {id:'Tape', title:'Norton Tape (Stick & Round)', prince:40,
+        short:'Size: 6x10, 6x12, 8x12',
+        tag:'Norton Tape', stock:10},
+      ];
 
     // DOM refs
     const grid = document.getElementById('productGrid');
